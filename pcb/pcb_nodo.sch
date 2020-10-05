@@ -546,7 +546,7 @@ Wire Wire Line
 	2800 1450 2800 1400
 Wire Wire Line
 	2650 1450 2800 1450
-Text Notes 1350 900  0    118  ~ 0
+Text Notes 1350 850  0    118  ~ 0
 Conversor AC/DC 
 Wire Wire Line
 	2650 1650 2800 1650
@@ -773,7 +773,7 @@ U 1 1 5F6ED2AD
 P 1450 1250
 F 0 "F1" V 1253 1250 50  0000 C CNN
 F 1 "Fuse" V 1344 1250 50  0000 C CNN
-F 2 "Fuse:Fuse_Littelfuse-LVR100" V 1380 1250 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 1380 1250 50  0001 C CNN
 F 3 "~" H 1450 1250 50  0001 C CNN
 	1    1450 1250
 	0    1    1    0   
@@ -784,7 +784,7 @@ U 1 1 5F6EDB63
 P 1700 1550
 F 0 "RV1" H 1400 1300 50  0000 L CNN
 F 1 "Varistor" H 1350 1400 50  0000 L CNN
-F 2 "Varistor:RV_Disc_D15.5mm_W3.9mm_P7.5mm" V 1630 1550 50  0001 C CNN
+F 2 "Varistor:RV_Disc_D7mm_W3.4mm_P5mm" V 1630 1550 50  0001 C CNN
 F 3 "~" H 1700 1550 50  0001 C CNN
 	1    1700 1550
 	1    0    0    -1  

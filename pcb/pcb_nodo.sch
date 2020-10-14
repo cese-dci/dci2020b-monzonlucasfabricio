@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Smart Public Buildings - Node"
-Date "2020-09-24"
+Date "2020-10-14"
 Rev "1.0"
 Comp "Lucas Monzón Languasco - SuSTI"
 Comment1 "Shield Heltec LoRa "
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Revisor alumno : Daniel Marquez"
+Comment3 "Revisor docente : Diego Brengi"
+Comment4 "Licencia BSD (proyecto CIAA), GPL o OHL (Cern)."
 $EndDescr
 $Comp
 L power:GND #PWR0101
@@ -50,7 +50,7 @@ Wire Wire Line
 NoConn ~ 6700 2600
 NoConn ~ 6700 2500
 Text Label 6900 2200 0    50   ~ 0
-23
+temp
 Wire Wire Line
 	6900 2200 6700 2200
 NoConn ~ 6700 2100
@@ -58,10 +58,10 @@ NoConn ~ 6700 2000
 NoConn ~ 6700 2300
 NoConn ~ 6700 1900
 Text Label 6900 1800 0    50   ~ 0
-2
+salidair
 NoConn ~ 6700 1700
 Text Label 6900 1600 0    50   ~ 0
-17
+salidarelay
 NoConn ~ 6700 1500
 Wire Wire Line
 	6900 1600 6700 1600
@@ -106,30 +106,18 @@ Text Label 5250 2600 0    50   ~ 0
 39
 NoConn ~ 5550 2500
 NoConn ~ 5550 2400
-Text Label 5250 2300 0    50   ~ 0
+Text Label 4750 2300 0    50   ~ 0
 32
-Text Label 5250 2200 0    50   ~ 0
-33
-Text Label 5250 2100 0    50   ~ 0
-25
+Text Label 4750 2200 0    50   ~ 0
+pulsador1
 NoConn ~ 5550 2000
 NoConn ~ 5550 1900
 NoConn ~ 5550 1800
-Text Label 5250 1700 0    50   ~ 0
-12
+Text Label 5100 1700 0    50   ~ 0
+led1
 NoConn ~ 5550 1500
-Text Label 5250 1600 0    50   ~ 0
-13
-Wire Wire Line
-	5250 1600 5550 1600
-Wire Wire Line
-	5250 1700 5550 1700
-Wire Wire Line
-	5250 2100 5550 2100
-Wire Wire Line
-	5250 2200 5550 2200
-Wire Wire Line
-	5250 2300 5550 2300
+Text Label 5100 1600 0    50   ~ 0
+pulsador2
 Wire Wire Line
 	5250 2600 5550 2600
 Wire Wire Line
@@ -151,8 +139,6 @@ F 3 "" H 2200 2950 50  0001 C CNN
 	1    2200 2950
 	1    0    0    -1  
 $EndComp
-Text Label 2750 3300 1    79   ~ 0
-23
 Wire Wire Line
 	2500 3300 2750 3300
 Wire Wire Line
@@ -182,7 +168,7 @@ $EndComp
 Wire Wire Line
 	6900 5800 7350 5800
 Text Label 6150 5800 2    79   ~ 0
-13
+pulsador2
 Wire Wire Line
 	6500 5800 6150 5800
 $Comp
@@ -197,29 +183,18 @@ F 3 "" H 10500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:FINDER-36.11 K1
-U 1 1 5F702DB2
-P 2900 5600
-F 0 "K1" H 2900 5050 50  0000 L CNN
-F 1 "FINDER-36.11" H 2650 4950 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Finder_36.11" H 4170 5570 50  0001 C CNN
-F 3 "https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf" H 2900 5600 50  0001 C CNN
-	1    2900 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_BJT:2N2219 Q1
 U 1 1 5F726CB5
 P 1950 6500
 F 0 "Q1" H 2140 6546 50  0000 L CNN
 F 1 "2N2219" H 2140 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2150 6425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2150 6425 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1950 6500 50  0001 L CNN
 	1    1950 6500
 	1    0    0    -1  
 $EndComp
-Text Label 1150 6500 2    79   ~ 0
-17
+Text Label 1150 6500 1    79   ~ 0
+salidarelay
 $Comp
 L Device:D D1
 U 1 1 5F745E56
@@ -235,8 +210,6 @@ Wire Wire Line
 	2700 5100 2350 5100
 Wire Wire Line
 	2050 5100 2050 5400
-Wire Wire Line
-	2700 5850 2700 5900
 Wire Wire Line
 	2700 6050 2050 6050
 Wire Wire Line
@@ -289,21 +262,11 @@ $EndComp
 Wire Wire Line
 	1350 6500 1150 6500
 Wire Wire Line
-	3100 6050 3100 5900
-Wire Wire Line
 	3600 5600 3600 6050
-Wire Wire Line
-	3600 6050 3100 6050
 Wire Wire Line
 	3600 5500 3600 5100
 Wire Wire Line
 	3600 5100 3200 5100
-Connection ~ 3100 5900
-Wire Wire Line
-	3100 5900 3100 5850
-Connection ~ 2700 5900
-Wire Wire Line
-	2700 5900 2700 6050
 Wire Wire Line
 	2700 5100 2700 5300
 Wire Wire Line
@@ -395,15 +358,15 @@ U 1 1 5F799002
 P 9750 2800
 F 0 "Q2" H 9940 2846 50  0000 L CNN
 F 1 "2N2219" H 9940 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9950 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9950 2725 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 9750 2800 50  0001 L CNN
 	1    9750 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9850 3000 9850 3350
-Text Label 8850 2800 0    79   ~ 0
-2
+Text Label 8850 2800 1    79   ~ 0
+salidair
 Wire Wire Line
 	9100 2800 8850 2800
 Wire Wire Line
@@ -412,8 +375,6 @@ Text Notes 8700 4150 0    118  ~ 0
 Led estado de conexion
 Wire Wire Line
 	8950 4600 9300 4600
-Text Label 8950 4600 1    79   ~ 0
-12
 Wire Wire Line
 	9600 4600 9850 4600
 $Comp
@@ -475,8 +436,8 @@ $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5F7061FF
 P 5050 2800
-F 0 "J4" H 5350 2600 50  0000 C CNN
-F 1 "Conn_01x04" H 5350 2700 50  0000 C CNN
+F 0 "J4" H 5200 2400 50  0000 C CNN
+F 1 "Conn_01x04" H 5200 2500 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5050 2800 50  0001 C CNN
 F 3 "~" H 5050 2800 50  0001 C CNN
 	1    5050 2800
@@ -487,12 +448,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 5F71EDAB
-P 5050 2200
-F 0 "J3" H 5350 2100 50  0000 C CNN
-F 1 "Conn_01x03" H 5350 2200 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5050 2200 50  0001 C CNN
-F 3 "~" H 5050 2200 50  0001 C CNN
-	1    5050 2200
+P 4550 2200
+F 0 "J3" H 4550 1850 50  0000 C CNN
+F 1 "Conn_01x03" H 4550 1950 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4550 2200 50  0001 C CNN
+F 3 "~" H 4550 2200 50  0001 C CNN
+	1    4550 2200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -514,8 +475,6 @@ Text Notes 6250 4450 0    118  ~ 0
 Pulsadores
 Wire Wire Line
 	6500 5000 6150 5000
-Text Label 6150 5000 2    79   ~ 0
-33
 Wire Wire Line
 	6900 5000 7350 5000
 $Comp
@@ -763,8 +722,6 @@ Wire Wire Line
 	9600 5550 9850 5550
 Wire Wire Line
 	10150 5550 10500 5550
-Text Label 8950 5550 1    79   ~ 0
-25
 Wire Wire Line
 	8950 5550 9300 5550
 $Comp
@@ -833,14 +790,8 @@ Wire Wire Line
 Connection ~ 1700 1900
 Wire Wire Line
 	1700 1900 1650 1900
-Wire Notes Line
-	5050 2000 5000 1800
-Wire Notes Line
-	5000 1800 4900 1800
-Text Notes 4400 1750 0    50   ~ 0
+Text Notes 4250 2750 0    50   ~ 0
 Pines analógicos.\nSolo entradas
-Wire Notes Line
-	5050 2500 5050 2400
 Text Notes 1150 2700 0    118  ~ 0
 Sensor de temperatura
 Wire Wire Line
@@ -871,4 +822,49 @@ Wire Notes Line
 	2700 3350 2800 3500
 Text Notes 2650 3600 0    50   ~ 0
 Info de temperatura
+Wire Wire Line
+	2700 5900 2700 6050
+Wire Wire Line
+	3600 6050 3100 6050
+$Comp
+L Relay:FINDER-36.11 K1
+U 1 1 5F702DB2
+P 2900 5600
+F 0 "K1" H 2900 5050 50  0000 L CNN
+F 1 "FINDER-36.11" H 2650 4950 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_36.11" H 4170 5570 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf" H 2900 5600 50  0001 C CNN
+	1    2900 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5900 3100 6050
+Text Notes 950  1850 0    50   ~ 0
+220v
+Text Notes 900  1950 0    50   ~ 0
+100 mA
+Wire Notes Line
+	1050 1700 1050 1750
+Text Label 6150 5000 2    79   ~ 0
+pulsador1
+Wire Wire Line
+	4750 2200 5550 2200
+Text Label 4750 2100 0    50   ~ 0
+led2
+Wire Wire Line
+	5100 1600 5550 1600
+Wire Wire Line
+	4750 2100 5550 2100
+Wire Wire Line
+	4750 2300 5550 2300
+Text Label 8950 4600 1    79   ~ 0
+led1
+Wire Wire Line
+	5100 1700 5550 1700
+Text Label 8950 5550 1    79   ~ 0
+led2
+Wire Notes Line
+	4800 2750 4950 2750
+Text Label 2750 3300 0    79   ~ 0
+temp
 $EndSCHEMATC

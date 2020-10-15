@@ -188,7 +188,7 @@ U 1 1 5F726CB5
 P 1950 6500
 F 0 "Q1" H 2140 6546 50  0000 L CNN
 F 1 "2N2219" H 2140 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2150 6425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2150 6425 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1950 6500 50  0001 L CNN
 	1    1950 6500
 	1    0    0    -1  
@@ -358,7 +358,7 @@ U 1 1 5F799002
 P 9750 2800
 F 0 "Q2" H 9940 2846 50  0000 L CNN
 F 1 "2N2219" H 9940 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9950 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9950 2725 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 9750 2800 50  0001 L CNN
 	1    9750 2800
 	1    0    0    -1  

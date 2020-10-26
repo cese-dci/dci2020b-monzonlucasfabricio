@@ -151,6 +151,7 @@ F 0 "SW2" H 6700 6085 50  0000 C CNN
 F 1 "SW_Push" H 6700 5994 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6700 6000 50  0001 C CNN
 F 3 "~" H 6700 6000 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 6700 5800 50  0001 C CNN "Catalogo"
 	1    6700 5800
 	1    0    0    -1  
 $EndComp
@@ -190,6 +191,7 @@ F 0 "Q1" H 2140 6546 50  0000 L CNN
 F 1 "2N2219" H 2140 6455 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2150 6425 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1950 6500 50  0001 L CNN
+F 4 "https://ar.mouser.com/ProductDetail/STMicroelectronics/2N2222A?qs=UMEuL5FsraBzcgM1cdcH3A%3D%3D" H 1950 6500 50  0001 C CNN "Catalogo"
 	1    1950 6500
 	1    0    0    -1  
 $EndComp
@@ -202,7 +204,8 @@ P 2050 5550
 F 0 "D1" V 2004 5630 50  0000 L CNN
 F 1 "D" V 2095 5630 50  0000 L CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2050 5550 50  0001 C CNN
-F 3 "~" H 2050 5550 50  0001 C CNN
+F 3 "https://www.alldatasheet.es/datasheet-pdf/pdf/58830/DIODES/1N4007.html" H 2050 5550 50  0001 C CNN
+F 4 "https://tienda.patagoniatec.com/productos/diodo-1n4007-1a-1000v/" V 2050 5550 50  0001 C CNN "Catalogo"
 	1    2050 5550
 	0    1    1    0   
 $EndComp
@@ -256,6 +259,7 @@ F 0 "R1" V 1707 6500 50  0000 C CNN
 F 1 "220" V 1616 6500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1430 6500 50  0001 C CNN
 F 3 "~" H 1500 6500 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Walsin/RC1-4221JB?qs=L3QzcrVjv97ios8m%252BKTpoA%3D%3D" V 1500 6500 50  0001 C CNN "Catalogo"
 	1    1500 6500
 	0    -1   -1   0   
 $EndComp
@@ -281,6 +285,7 @@ F 0 "R3" H 9920 1746 50  0000 L CNN
 F 1 "10" H 9920 1655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9780 1700 50  0001 C CNN
 F 3 "~" H 9850 1700 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Walsin/RC1-4221JB?qs=L3QzcrVjv97ios8m%252BKTpoA%3D%3D" H 9850 1700 50  0001 C CNN "Catalogo"
 	1    9850 1700
 	1    0    0    -1  
 $EndComp
@@ -292,6 +297,7 @@ F 0 "D2" V 9689 2032 50  0000 R CNN
 F 1 "LED" V 9598 2032 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm_IRGrey" H 9650 2150 50  0001 C CNN
 F 3 "~" H 9650 2150 50  0001 C CNN
+F 4 "https://www.dled.com.ar/led-5-mm-infrarojo-850-nm-30-dimerizable/" V 9650 2150 50  0001 C CNN "Catalogo"
 	1    9650 2150
 	0    -1   -1   0   
 $EndComp
@@ -303,6 +309,7 @@ F 0 "D4" V 10039 2032 50  0000 R CNN
 F 1 "LED" V 9948 2032 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm_IRGrey" H 10000 2150 50  0001 C CNN
 F 3 "~" H 10000 2150 50  0001 C CNN
+F 4 "https://www.dled.com.ar/led-5-mm-infrarojo-850-nm-30-dimerizable/" V 10000 2150 50  0001 C CNN "Catalogo"
 	1    10000 2150
 	0    -1   -1   0   
 $EndComp
@@ -336,6 +343,7 @@ F 0 "R2" V 9043 2800 50  0000 C CNN
 F 1 "100" V 9134 2800 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9180 2800 50  0001 C CNN
 F 3 "~" H 9250 2800 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Walsin/RC1-4221JB?qs=L3QzcrVjv97ios8m%252BKTpoA%3D%3D" V 9250 2800 50  0001 C CNN "Catalogo"
 	1    9250 2800
 	0    1    1    0   
 $EndComp
@@ -360,6 +368,7 @@ F 0 "Q2" H 9940 2846 50  0000 L CNN
 F 1 "2N2219" H 9940 2755 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 9950 2725 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 9750 2800 50  0001 L CNN
+F 4 "https://ar.mouser.com/ProductDetail/STMicroelectronics/2N2222A?qs=UMEuL5FsraBzcgM1cdcH3A%3D%3D" H 9750 2800 50  0001 C CNN "Catalogo"
 	1    9750 2800
 	1    0    0    -1  
 $EndComp
@@ -385,6 +394,7 @@ F 0 "R4" V 9650 4650 50  0000 L CNN
 F 1 "220" V 9550 4600 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 4700 50  0001 C CNN
 F 3 "~" H 9450 4700 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Walsin/RC1-4221JB?qs=L3QzcrVjv97ios8m%252BKTpoA%3D%3D" V 9450 4700 50  0001 C CNN "Catalogo"
 	1    9450 4700
 	0    -1   -1   0   
 $EndComp
@@ -396,6 +406,7 @@ F 0 "D3" H 10050 4600 50  0000 R CNN
 F 1 "LED" H 10050 4500 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 4700 50  0001 C CNN
 F 3 "~" H 10000 4700 50  0001 C CNN
+F 4 "https://www.dled.com.ar/led-5-mm-rojo-625-nm-8000-mcd-30-dimerizable/" H 10000 4700 50  0001 C CNN "Catalogo"
 	1    10000 4700
 	-1   0    0    1   
 $EndComp
@@ -407,6 +418,7 @@ F 0 "J5" H 5650 1200 50  0000 C CNN
 F 1 "Conn_01x18" H 5650 1300 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical" H 5750 2400 50  0001 C CNN
 F 3 "~" H 5750 2400 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 5750 2400 50  0001 C CNN "Catalogo"
 	1    5750 2400
 	1    0    0    1   
 $EndComp
@@ -418,6 +430,7 @@ F 0 "J6" H 6400 1200 50  0000 C CNN
 F 1 "Conn_01x18" H 6400 1300 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical" H 6500 2400 50  0001 C CNN
 F 3 "~" H 6500 2400 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 6500 2400 50  0001 C CNN "Catalogo"
 	1    6500 2400
 	-1   0    0    1   
 $EndComp
@@ -429,6 +442,7 @@ F 0 "J7" H 7180 2692 50  0000 L CNN
 F 1 "UART_0" H 7180 2601 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7100 2700 50  0001 C CNN
 F 3 "~" H 7100 2700 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 7100 2700 50  0001 C CNN "Catalogo"
 	1    7100 2700
 	1    0    0    -1  
 $EndComp
@@ -440,6 +454,7 @@ F 0 "J4" H 5200 2400 50  0000 C CNN
 F 1 "Conn_01x04" H 5200 2500 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5050 2800 50  0001 C CNN
 F 3 "~" H 5050 2800 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 5050 2800 50  0001 C CNN "Catalogo"
 	1    5050 2800
 	-1   0    0    1   
 $EndComp
@@ -453,6 +468,7 @@ F 0 "J3" H 4550 1850 50  0000 C CNN
 F 1 "Conn_01x03" H 4550 1950 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4550 2200 50  0001 C CNN
 F 3 "~" H 4550 2200 50  0001 C CNN
+F 4 "https://www.austral3d.com.ar/productos/item/1216/Tiras-De-40-Pines-Hembra-Paso-254mm-Recta-1-Fila-Arduino" H 4550 2200 50  0001 C CNN "Catalogo"
 	1    4550 2200
 	-1   0    0    1   
 $EndComp
@@ -464,6 +480,7 @@ F 0 "J2" H 4130 5492 50  0000 L CNN
 F 1 "Conn_01x02" H 4130 5401 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4050 5500 50  0001 C CNN
 F 3 "~" H 4050 5500 50  0001 C CNN
+F 4 "https://tienda.patagoniatec.com/productos/bornera-dg301-2-pin/" H 4050 5500 50  0001 C CNN "Catalogo"
 	1    4050 5500
 	1    0    0    -1  
 $EndComp
@@ -496,6 +513,7 @@ F 0 "SW1" H 6700 5385 50  0000 C CNN
 F 1 "SW_Push" H 6700 5294 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6700 5300 50  0001 C CNN
 F 3 "~" H 6700 5300 50  0001 C CNN
+F 4 "https://tienda.patagoniatec.com/productos/bornera-dg301-2-pin/" H 6700 5100 50  0001 C CNN "Catalogo"
 	1    6700 5100
 	1    0    0    -1  
 $EndComp
@@ -543,6 +561,7 @@ F 0 "PS1" H 2250 1875 50  0000 C CNN
 F 1 "HLK-PM01" H 2250 1784 50  0000 C CNN
 F 2 "Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx" H 2250 1250 50  0001 C CNN
 F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 2650 1200 50  0001 C CNN
+F 4 "https://www.todomicro.com.ar/dispositivos-de-almacenamiento/737-fuente-switching-aislada-arduino-hlk-pm01-220-5v-600ma.html" H 2250 1550 50  0001 C CNN "Catalogo"
 	1    2250 1550
 	1    0    0    -1  
 $EndComp
@@ -554,6 +573,7 @@ F 0 "J1" H 1050 1750 50  0000 C CNN
 F 1 "Conn_01x02" H 1050 1650 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1050 1500 50  0001 C CNN
 F 3 "~" H 1050 1500 50  0001 C CNN
+F 4 "https://tienda.patagoniatec.com/productos/bornera-dg301-2-pin/" H 1050 1500 50  0001 C CNN "Catalogo"
 	1    1050 1500
 	-1   0    0    -1  
 $EndComp
@@ -693,6 +713,7 @@ F 0 "R5" V 9650 5400 50  0000 L CNN
 F 1 "220" V 9550 5350 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 5450 50  0001 C CNN
 F 3 "~" H 9450 5450 50  0001 C CNN
+F 4 "https://ar.mouser.com/ProductDetail/Walsin/RC1-4221JB?qs=L3QzcrVjv97ios8m%252BKTpoA%3D%3D" V 9450 5450 50  0001 C CNN "Catalogo"
 	1    9450 5450
 	0    -1   -1   0   
 $EndComp
@@ -704,6 +725,7 @@ F 0 "D5" H 10039 5332 50  0000 R CNN
 F 1 "LED" H 10050 5250 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 5450 50  0001 C CNN
 F 3 "~" H 10000 5450 50  0001 C CNN
+F 4 "https://www.dled.com.ar/led-5-mm-rojo-625-nm-8000-mcd-30-dimerizable/" H 10000 5450 50  0001 C CNN "Catalogo"
 	1    10000 5450
 	-1   0    0    1   
 $EndComp
@@ -732,6 +754,7 @@ F 0 "F1" V 1253 1250 50  0000 C CNN
 F 1 "Fuse" V 1344 1250 50  0000 C CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 1380 1250 50  0001 C CNN
 F 3 "~" H 1450 1250 50  0001 C CNN
+F 4 "https://www.microelectronicash.com/fu-cfst-0-5a--det--FU-CFST-0.5A" V 1450 1250 50  0001 C CNN "Catalogo"
 	1    1450 1250
 	0    1    1    0   
 $EndComp
@@ -743,6 +766,7 @@ F 0 "RV1" H 1400 1300 50  0000 L CNN
 F 1 "Varistor" H 1350 1400 50  0000 L CNN
 F 2 "Varistor:RV_Disc_D7mm_W3.4mm_P5mm" V 1630 1550 50  0001 C CNN
 F 3 "~" H 1700 1550 50  0001 C CNN
+F 4 "https://www.microelectronicash.com/s07k30--det--S07K30" H 1700 1550 50  0001 C CNN "Catalogo"
 	1    1700 1550
 	1    0    0    -1  
 $EndComp
@@ -815,6 +839,7 @@ F 0 "U1" H 1800 3300 50  0000 C CNN
 F 1 "DHT11" H 1800 3200 50  0000 C CNN
 F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 2200 2900 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 2350 3550 50  0001 C CNN
+F 4 "https://www.todomicro.com.ar/arduino/224-sensor-de-temperatura-y-humedad-dht11-arduino.html" H 2200 3300 50  0001 C CNN "Catalogo"
 	1    2200 3300
 	1    0    0    -1  
 $EndComp
@@ -834,6 +859,7 @@ F 0 "K1" H 2900 5050 50  0000 L CNN
 F 1 "FINDER-36.11" H 2650 4950 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Finder_36.11" H 4170 5570 50  0001 C CNN
 F 3 "https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf" H 2900 5600 50  0001 C CNN
+F 4 "https://www.icutech.com.ar/MLA-635387456-rele-5v-simple-inversor-10a-220v-arduino-pic-atmel-_JM#reco_item_pos=1&reco_backend=machinalis-seller-items&reco_backend_type=function&reco_client=vip-seller_items_above-shops&reco_id=a5dc74e7-afa8-43fa-a89a-87607b8c06ce" H 2900 5600 50  0001 C CNN "Catalogo"
 	1    2900 5600
 	1    0    0    -1  
 $EndComp

@@ -126,8 +126,8 @@ Wire Wire Line
 	5250 2800 5550 2800
 Wire Wire Line
 	5250 2900 5550 2900
-Text Notes 5650 950  0    118  ~ 0
-Conectores
+Text Notes 4500 950  0    79   ~ 0
+Pines de conexion a la pcb externa (heltec lora v2)
 $Comp
 L power:+3.3V #PWR0108
 U 1 1 5F69889B
@@ -174,12 +174,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0110
 U 1 1 5F6D800D
-P 10500 4850
-F 0 "#PWR0110" H 10500 4600 50  0001 C CNN
-F 1 "GND" H 10505 4677 50  0000 C CNN
-F 2 "" H 10500 4850 50  0001 C CNN
-F 3 "" H 10500 4850 50  0001 C CNN
-	1    10500 4850
+P 10500 4950
+F 0 "#PWR0110" H 10500 4700 50  0001 C CNN
+F 1 "GND" H 10505 4777 50  0000 C CNN
+F 2 "" H 10500 4950 50  0001 C CNN
+F 3 "" H 10500 4950 50  0001 C CNN
+	1    10500 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,8 +271,8 @@ Wire Wire Line
 	2700 5100 2700 5300
 Wire Wire Line
 	3200 5100 3200 5300
-Text Notes 2200 4450 0    118  ~ 0
-Circuito relay
+Text Notes 1400 4450 0    79   ~ 0
+Circuito de relay manejado por el pulsador 1
 $Comp
 L Device:R R3
 U 1 1 5F7A9FD7
@@ -370,33 +370,33 @@ salidair
 Wire Wire Line
 	9100 2800 8850 2800
 Wire Wire Line
-	10150 4600 10500 4600
-Text Notes 8700 4150 0    118  ~ 0
-Led estado de conexion
+	10150 4700 10500 4700
+Text Notes 8900 4200 0    79   ~ 0
+Leds de estados de conexion\ny funcionamiento
 Wire Wire Line
-	8950 4600 9300 4600
+	8950 4700 9300 4700
 Wire Wire Line
-	9600 4600 9850 4600
+	9600 4700 9850 4700
 $Comp
 L Device:R R4
 U 1 1 5F6CF01A
-P 9450 4600
-F 0 "R4" V 9650 4550 50  0000 L CNN
-F 1 "220" V 9550 4500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 4600 50  0001 C CNN
-F 3 "~" H 9450 4600 50  0001 C CNN
-	1    9450 4600
+P 9450 4700
+F 0 "R4" V 9650 4650 50  0000 L CNN
+F 1 "220" V 9550 4600 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5F6CA9E7
-P 10000 4600
-F 0 "D3" H 10050 4500 50  0000 R CNN
-F 1 "LED" H 10050 4400 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 4600 50  0001 C CNN
-F 3 "~" H 10000 4600 50  0001 C CNN
-	1    10000 4600
+P 10000 4700
+F 0 "D3" H 10050 4600 50  0000 R CNN
+F 1 "LED" H 10050 4500 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 4700 50  0001 C CNN
+F 3 "~" H 10000 4700 50  0001 C CNN
+	1    10000 4700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -471,32 +471,32 @@ Wire Wire Line
 	3850 5500 3600 5500
 Wire Wire Line
 	3600 5600 3850 5600
-Text Notes 6250 4450 0    118  ~ 0
-Pulsadores
+Text Notes 5350 4650 0    79   ~ 0
+Pulsadores para:\n1) encendido y apagado de luz\n2) cambios de modo y conexion a la central
 Wire Wire Line
-	6500 5000 6150 5000
+	6500 5100 6150 5100
 Wire Wire Line
-	6900 5000 7350 5000
+	6900 5100 7350 5100
 $Comp
 L power:GND #PWR0115
 U 1 1 5F6AF809
-P 7350 5150
-F 0 "#PWR0115" H 7350 4900 50  0001 C CNN
-F 1 "GND" H 7355 4977 50  0000 C CNN
-F 2 "" H 7350 5150 50  0001 C CNN
-F 3 "" H 7350 5150 50  0001 C CNN
-	1    7350 5150
+P 7350 5250
+F 0 "#PWR0115" H 7350 5000 50  0001 C CNN
+F 1 "GND" H 7355 5077 50  0000 C CNN
+F 2 "" H 7350 5250 50  0001 C CNN
+F 3 "" H 7350 5250 50  0001 C CNN
+	1    7350 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F6ACD07
-P 6700 5000
-F 0 "SW1" H 6700 5285 50  0000 C CNN
-F 1 "SW_Push" H 6700 5194 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6700 5200 50  0001 C CNN
-F 3 "~" H 6700 5200 50  0001 C CNN
-	1    6700 5000
+P 6700 5100
+F 0 "SW1" H 6700 5385 50  0000 C CNN
+F 1 "SW_Push" H 6700 5294 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6700 5300 50  0001 C CNN
+F 3 "~" H 6700 5300 50  0001 C CNN
+	1    6700 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -654,8 +654,8 @@ Wire Notes Line width 8 style solid
 	8700 650  10850 650 
 Wire Notes Line
 	8700 650  10850 650 
-Text Notes 9150 1000 0    118  ~ 0
-Circuito led IR
+Text Notes 8800 1000 0    79   ~ 0
+Circuito Led IR para encendido\ny apagado de aire acondicionado
 Wire Wire Line
 	9850 1350 9850 1550
 $Comp
@@ -688,42 +688,42 @@ Wire Notes Line width 8 style solid
 $Comp
 L Device:R R5
 U 1 1 5F9B0408
-P 9450 5550
-F 0 "R5" V 9650 5500 50  0000 L CNN
-F 1 "220" V 9550 5450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 5550 50  0001 C CNN
-F 3 "~" H 9450 5550 50  0001 C CNN
-	1    9450 5550
+P 9450 5450
+F 0 "R5" V 9650 5400 50  0000 L CNN
+F 1 "220" V 9550 5350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 9380 5450 50  0001 C CNN
+F 3 "~" H 9450 5450 50  0001 C CNN
+	1    9450 5450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 5F9B0796
-P 10000 5550
-F 0 "D5" H 10039 5432 50  0000 R CNN
-F 1 "LED" H 10050 5350 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 5550 50  0001 C CNN
-F 3 "~" H 10000 5550 50  0001 C CNN
-	1    10000 5550
+P 10000 5450
+F 0 "D5" H 10039 5332 50  0000 R CNN
+F 1 "LED" H 10050 5250 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm_FlatTop" H 10000 5450 50  0001 C CNN
+F 3 "~" H 10000 5450 50  0001 C CNN
+	1    10000 5450
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5F9B0D61
-P 10500 5750
-F 0 "#PWR03" H 10500 5500 50  0001 C CNN
-F 1 "GND" H 10505 5577 50  0000 C CNN
-F 2 "" H 10500 5750 50  0001 C CNN
-F 3 "" H 10500 5750 50  0001 C CNN
-	1    10500 5750
+P 10500 5650
+F 0 "#PWR03" H 10500 5400 50  0001 C CNN
+F 1 "GND" H 10505 5477 50  0000 C CNN
+F 2 "" H 10500 5650 50  0001 C CNN
+F 3 "" H 10500 5650 50  0001 C CNN
+	1    10500 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 5550 9850 5550
+	9600 5450 9850 5450
 Wire Wire Line
-	10150 5550 10500 5550
+	10150 5450 10500 5450
 Wire Wire Line
-	8950 5550 9300 5550
+	8950 5450 9300 5450
 $Comp
 L Device:Fuse F1
 U 1 1 5F6ED2AD
@@ -773,11 +773,11 @@ Wire Wire Line
 Wire Wire Line
 	1650 1900 1650 1950
 Wire Wire Line
-	10500 4600 10500 4850
+	10500 4700 10500 4950
 Wire Wire Line
-	10500 5550 10500 5750
+	10500 5450 10500 5650
 Wire Wire Line
-	7350 5000 7350 5150
+	7350 5100 7350 5250
 Wire Wire Line
 	7350 5800 7350 5950
 Wire Wire Line
@@ -845,7 +845,7 @@ Text Notes 900  1950 0    50   ~ 0
 100 mA
 Wire Notes Line
 	1050 1700 1050 1750
-Text Label 6150 5000 2    79   ~ 0
+Text Label 6150 5100 2    79   ~ 0
 pulsador1
 Wire Wire Line
 	4750 2200 5550 2200
@@ -857,14 +857,50 @@ Wire Wire Line
 	4750 2100 5550 2100
 Wire Wire Line
 	4750 2300 5550 2300
-Text Label 8950 4600 1    79   ~ 0
+Text Label 8950 4700 1    79   ~ 0
 led1
 Wire Wire Line
 	5100 1700 5550 1700
-Text Label 8950 5550 1    79   ~ 0
+Text Label 8950 5450 1    79   ~ 0
 led2
 Wire Notes Line
 	4800 2750 4950 2750
 Text Label 2750 3300 0    79   ~ 0
 temp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F88EA7D
+P 5350 6850
+F 0 "H1" H 5450 6896 50  0000 L CNN
+F 1 "MountingHole" H 5450 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5350 6850 50  0001 C CNN
+F 3 "~" H 5350 6850 50  0001 C CNN
+	1    5350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F88ED2A
+P 6200 6850
+F 0 "H2" H 6300 6896 50  0000 L CNN
+F 1 "MountingHole" H 6300 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6200 6850 50  0001 C CNN
+F 3 "~" H 6200 6850 50  0001 C CNN
+	1    6200 6850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 8 style solid
+	6900 7050 5100 7050
+Wire Notes Line width 8 style solid
+	5100 7050 5100 6450
+Wire Notes Line width 8 style solid
+	5100 6450 6900 6450
+Text Notes 5400 6600 0    79   ~ 0
+Elementos mecanicos
+Wire Notes Line width 8 style solid
+	6900 6450 6900 7050
+Wire Notes Line
+	3000 5200 3250 4850
+Text Notes 3250 4900 0    59   ~ 0
+No es necesario conectar\ndebido a que se usa siempre el\ncontacto normal abierto
 $EndSCHEMATC
